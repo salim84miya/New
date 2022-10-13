@@ -79,6 +79,7 @@ public class AimlFragment extends Fragment {
         Button button6 = (Button) view.findViewById(R.id.name_6);
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
+
             public void onClick(View view) {
                 SpecialRequestPage.email= "bhagyalaxmi.v@sigce.edu.in";
                 Intent intent = new Intent(getActivity(),SpecialRequestPage.class);
